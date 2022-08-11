@@ -1,0 +1,167 @@
+/*****************TAG CSS*****************/
+
+body {
+  margin:0;
+  text-align: center;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-family: 'Ms Madi', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+hr{
+  border: 0.5rem dotted #cad2c5;
+  width: 15%;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin: 100px auto;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #11999E;
+}
+
+a{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #11999E;
+  margin: 2rem;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#ffffff;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+span{
+  text-decoration: underline;
+}
+
+img{
+  margin: 0;
+}
+
+
+/*****************CLASS CSS*****************/
+.top-container{
+  background-color: #EAF6F6;
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  font-family: cursive;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.cloud1{
+  position:absolute;
+  right:300px;
+  top:50px;
+}
+
+.cloud2{
+  position:absolute;
+  left:250px;
+}
+.profilepic{
+  border-radius: 500px;
+  width: 200px;
+  height: auto;
+}
+
+.profile{
+  width: 50%;
+  margin: auto;
+}
+
+.skills{
+  margin-top: 3rem;
+}
+.skill1{
+  width:25%;
+  float: left;
+  margin-right: 2rem;
+}
+
+.skill2{
+  width:25%;
+  float: right;
+  margin-right: 2rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me{
+  width: 50%;
+  margin: 0 auto 40px auto;
+  line-height: 2;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 2rem;
+  line-height: 2;
+
+}
+
+/*****************ID CSS*****************/
+
+#copyright{
+  color: white;
+  font-size: 0.7rem;
+  padding: 20px 0;
+}
+
+#hookup-line{
+  margin-bottom: 2rem;
+}
+
+/****************CONTACT ME BUTTON********/
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
